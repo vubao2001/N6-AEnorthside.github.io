@@ -160,7 +160,3 @@ function redirect() {
     }
 }
 // end checkout button
-
-// function check () {
-//     window.location.href = "../html/thanhtoan.html"
-// }

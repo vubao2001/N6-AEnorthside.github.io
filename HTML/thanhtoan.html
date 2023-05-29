@@ -331,39 +331,44 @@
     </header>
     <section class="container-fluid mt-5">
         <div class="container ps-0">
-            <div class="row">
-                <div class="container thongtinship col-12 col-sm-8">
-                    
-                    <div class="container logo logo--left">
-                        <h1 class="shop__name">
-                            <a href="../index.html">Lofi Style</a>
-                        </h1>
-                    </div>
-                    <div class="container-fluid row">
-                        <div class="nhanhang containe col-12 col-sm-6">
-                            <h3>Thông tin nhận hàng</h3>
-                            <form id="form-1" class="form-group">
+            <form id="form-1" class="form-group">
+
+                <div class="row">
+                    <div class="container thongtinship col-12 col-sm-8">
+
+                        <div class="container logo logo--left">
+                            <h1 class="shop__name">
+                                <a href="../index.html">Lofi Style</a>
+                            </h1>
+                        </div>
+                        <div class="container-fluid row">
+                            <div class="nhanhang containe col-12 col-sm-6">
+                                <h3>Thông tin nhận hàng</h3>
+                                <!-- <form id="form-1" class="form-group"> -->
                                 <div class="input-group-lg">
-                                    <input id="fullname" type="text" class="form-control mt-3 mb-3" placeholder="Họ và tên">
+                                    <input id="fullname" type="text" class="form-control mt-3 mb-3"
+                                        placeholder="Họ và tên">
                                     <span class="form-messege"></span>
                                 </div>
                                 <div class="input-group-lg">
-                                    <input id="numberphone" type="text" class="form-control mt-3 mb-3" placeholder="Số điện thoại">
+                                    <input id="numberphone" type="text" class="form-control mt-3 mb-3"
+                                        placeholder="Số điện thoại">
                                     <span class="form-messege"></span>
                                 </div>
                                 <div class="input-group-lg">
                                     <input id="email" type="text" class="form-control mt-3 mb-3" placeholder="Email">
-                                    
+
                                     <span class="form-messege"></span>
                                 </div>
                                 <div class="input-group-lg">
-                                    <input id="address" type="text" class="form-control mt-3 mb-3" placeholder="Địa chỉ">
+                                    <input id="address" type="text" class="form-control mt-3 mb-3"
+                                        placeholder="Địa chỉ">
                                     <span class="form-messege"></span>
                                 </div>
 
                                 <div class=".field__input-wrapper mb-3">
-                                    
-                                    <label class="form-label" for="inputGroupSelect01" >Tỉnh/Thành phố (tuỳ chọn)</label>
+
+                                    <label class="form-label" for="inputGroupSelect01">Tỉnh/Thành phố (tuỳ chọn)</label>
                                     <select class="form-select" id="inputGroupSelect01" style="width: 100%;">
                                         <option selected>Hà Nội</option>
                                         <option value="1">Hồ Chí Minh</option>
@@ -374,8 +379,8 @@
                                 </div>
 
                                 <div class=".field__input-wrapper mb-3">
-                                    
-                                    <label class="form-label" for="inputGroupSelect02" >Quận/huyện(tuỳ chọn)</label>
+
+                                    <label class="form-label" for="inputGroupSelect02">Quận/huyện(tuỳ chọn)</label>
                                     <select class="form-select" id="inputGroupSelect02">
                                         <option selected>Quận 1</option>
                                         <option value="1">Quận 2</option>
@@ -385,201 +390,214 @@
                                     <span class="form-messege"></span>
                                 </div>
                                 <div class="input-group-lg">
-                                    <input type="text" class="form-control mt-3 mb-3" placeholder="Xã/Phường">
+                                    <input id="xaphuong" type="text" class="form-control mt-3 mb-3" placeholder="Xã/Phường">
                                     <span class="form-messege"></span>
                                 </div>
                                 <div class="mb-3 ghichu">
                                     <label for="exampleFormControlTextarea1" class="form-label ms-3">Ghi chú</label>
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
-                            </form>
-                        </div>
-                        <div class="containe col-12 col-sm-6">
-                            <div>
-                                <h3>vận chuyển</h3>
-                                <div class="vanchuyen alert alert--info input-group-sm" data-bind-show="!isLoadingShippingMethod &amp;&amp; isAddressSelecting">
-                                    Vui lòng nhập thông tin giao hàng
-                                </div>
-                            </div>
-                            <div>
-                                <h3>Thanh toán</h3>
-                                <ul class="list-group mt-3 mb-3">
-                                    <li class="list-group-item">
-                                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="firstRadio" checked>
-                                        <label class="form-check-label" for="firstRadio">Thanh toán khi giao hàng (COD)
-                                            <i class="payment-icon payment-icon--4"></i>
-                                        </label>
-                                    </li>
-                                </ul>
-                                <div class="content-box__row__desc" data-bind-show="paymentMethod == 537853">
-                                    <p class="ms-3">Bạn chỉ phải thanh toán khi nhận được hàng</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container sanpham pe-5 col-12 col-sm-4 bg-light">
-                    <div class="container mt-3">
-                        <h3 >Đơn hàng</h3>
-                        <span></span>
-                        <hr>
-                    </div>
-                    <div class="container">
-                        <div class="order-summary__section order-summary__section--product-list order-summary__section--is-scrollable order-summary--collapse-element">
-                            <table class="product-table">
-                                <caption class="visually-hidden">Chi tiết đơn hàng</caption>
-                                <thead class="product-table__header">
-                                    <tr>
-                                        <th>
-                                            <span class="visually-hidden">Ảnh sản phẩm</span>
-                                        </th>
-                                        <th>
-                                            <span class="visually-hidden">Mô tả</span>
-                                        </th>
-                                        <th>
-                                            <span class="visually-hidden">Sổ lượng</span>
-                                        </th>
-                                        <th>
-                                            <span class="visually-hidden">Đơn giá</span>
-                                        </th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    
-                                    <tr class="product">
-                                        <td class="product__image">
-                                            <div class="product-thumbnail mb-3 me-3">
-                                                <div class="product-thumbnail__wrapper" data-tg-static="">
-                                                    <img src="//bizweb.dktcdn.net/thumb/thumb/100/456/491/products/zhglb5ybvfie29apcipt.jpg?v=1673154130480" alt="" class="product-thumbnail__image">
-                                                </div>
-                                                <span class="product-thumbnail__quantity">1</span>
-                                            </div>
-                                        </td>
-                                        <th class="product__description">
-                                            <span class="product__description__name">
-                                                Đầm suông nữ tặng kèm dây beo thắt eo
-                                            </span>
-                                            
-                                            
-                                        </th>
-                                        <td class="product__quantity visually-hidden"><em>Số lượng:</em> 1</td>
-                                        <td class="product__price">
-                                            
-                                            129.000₫
-                                            
-                                        </td>
-                                    </tr>
-                                    
-                                    <tr class="product">
-                                        <td class="product__image">
-                                            <div class="product-thumbnail mb-3 me-3">
-                                                <div class="product-thumbnail__wrapper" data-tg-static="">
-                                                    <img src="//bizweb.dktcdn.net/thumb/thumb/100/456/491/products/7xtwyt-simg-d0daf0-800x1200-max.png?v=1678891276913" alt="" class="product-thumbnail__image">
-                                                </div>
-                                                <span class="product-thumbnail__quantity">1</span>
-                                            </div>
-                                        </td>
-                                        <th class="product__description">
-                                            <span class="product__description__name">
-                                                Ví nữ cầm tay phong cách Hàn Quốc
-                                            </span>
-                                            
-                                            <span class="product__description__property">
-                                                Vàng
-                                            </span>
-                                            
-                                            
-                                        </th>
-                                        <td class="product__quantity visually-hidden"><em>Số lượng:</em> 1</td>
-                                        <td class="product__price">
-                                            
-                                            120.000₫
-                                            
-                                        </td>
-                                    </tr>
-                                    
-                                    <tr class="product">
-                                        <td class="product__image">
-                                            <div class="product-thumbnail mb-3 me-3">
-                                                <div class="product-thumbnail__wrapper" data-tg-static="">
-                                                    <img src="//bizweb.dktcdn.net/thumb/thumb/100/456/491/products/bcbchsie3amjuunh6y8j-simg-e8409c-967x967-max.jpg?v=1673192704330" alt="" class="product-thumbnail__image">
-                                                </div>
-                                                <span class="product-thumbnail__quantity">1</span>
-                                            </div>
-                                        </td>
-                                        <th class="product__description">
-                                            <span class="product__description__name">
-                                                Áo Phông, Thun Nữ Form Rộng
-                                            </span>
-                                            
-                                            <span class="product__description__property">
-                                                Đen / M
-                                            </span>
-                                            
-                                            
-                                        </th>
-                                        <td class="product__quantity visually-hidden"><em>Số lượng:</em> 1</td>
-                                        <td class="product__price">
-                                            
-                                            109.000₫
-                                            
-                                        </td>
-                                    </tr>
-                                    
-                                </tbody>
-                            </table>
-                        </div>
-                        <hr>
-                    </div>
-                    <div class="container">
-                        <form class="d-flex justify-content-between" role="text">
-                            <input class="form-control me-2" type="search" placeholder="Nhập mã giảm giá" aria-label="Nhập giảm giá">
-                            <button type="button" class="btn apdung">Áp dụng</button>
-                        </form>
-                        <hr>
-                    </div>
-                    <div class="container">
-                        <div class="d-flex justify-content-between">
-                            <span class="mb-3">Tạm tính</span>
-                            <span class="price-total">380.000₫</span>
-                        </div>
-                        <div class="d-flex justify-content-between">
-                            <span>Phí vận chuyển</span>
-                            <span>Miễn phí</span>
-                        </div>
-                        <hr>
-                        <div class="d-flex justify-content-between">
-                            <span class="mb-3">Tổng cộng</span>
-                            <span class="payment-due__price">390.000₫</span>
-                        </div>
-                        <div class="back d-flex justify-content-between">
-                            <a href=""> <i class="fa-solid fa-chevron-left"></i> Quay về giỏ hàng</a>
-                            <button  type="submit" class="dathang btn btn-success">Đặt hàng</button>
-                        </div>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-        </div>  
-    </section>
-<script type="module" src="../js/thanhtoan.js"></script>
 
-<script src="../js/validate.js"></script>
-<script>
-validator({
-    form:'#form-1',
-    errorSelector:'.form-messege',
-    rules:[
-        validator.isRequired('#fullname'),
-        validator.isNumber('#numberphone'),
-        validator.isEmail('#email'),
-        validator.isRequired('#address'),
-        validator.isRequired('#inputGroupSelect01'),
-        validator.isRequired('#inputGroupSelect02'),
-    ]
-});
-</script>
+                            </div>
+                            <div class="containe col-12 col-sm-6">
+                                <div>
+                                    <h3>vận chuyển</h3>
+                                    <div class="vanchuyen alert alert--info input-group-sm"
+                                        data-bind-show="!isLoadingShippingMethod &amp;&amp; isAddressSelecting">
+                                        Vui lòng nhập thông tin giao hàng
+                                    </div>
+                                </div>
+                                <div>
+                                    <h3>Thanh toán</h3>
+                                    <ul class="list-group mt-3 mb-3">
+                                        <li class="list-group-item">
+                                            <input class="form-check-input me-1" type="radio" name="listGroupRadio"
+                                                value="" id="firstRadio" checked>
+                                            <label class="form-check-label" for="firstRadio">Thanh toán khi giao hàng
+                                                (COD)
+                                                <i class="payment-icon payment-icon--4"></i>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                    <div class="content-box__row__desc" data-bind-show="paymentMethod == 537853">
+                                        <p class="ms-3">Bạn chỉ phải thanh toán khi nhận được hàng</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container sanpham pe-5 col-12 col-sm-4 bg-light">
+                        <div class="container mt-3">
+                            <h3>Đơn hàng</h3>
+                            <span></span>
+                            <hr>
+                        </div>
+                        <div class="container">
+                            <div
+                                class="order-summary__section order-summary__section--product-list order-summary__section--is-scrollable order-summary--collapse-element">
+                                <table class="product-table">
+                                    <caption class="visually-hidden">Chi tiết đơn hàng</caption>
+                                    <thead class="product-table__header">
+                                        <tr>
+                                            <th>
+                                                <span class="visually-hidden">Ảnh sản phẩm</span>
+                                            </th>
+                                            <th>
+                                                <span class="visually-hidden">Mô tả</span>
+                                            </th>
+                                            <th>
+                                                <span class="visually-hidden">Sổ lượng</span>
+                                            </th>
+                                            <th>
+                                                <span class="visually-hidden">Đơn giá</span>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <tr class="product">
+                                            <td class="product__image">
+                                                <div class="product-thumbnail mb-3 me-3">
+                                                    <div class="product-thumbnail__wrapper" data-tg-static="">
+                                                        <img src="//bizweb.dktcdn.net/thumb/thumb/100/456/491/products/zhglb5ybvfie29apcipt.jpg?v=1673154130480"
+                                                            alt="" class="product-thumbnail__image">
+                                                    </div>
+                                                    <span class="product-thumbnail__quantity">1</span>
+                                                </div>
+                                            </td>
+                                            <th class="product__description">
+                                                <span class="product__description__name">
+                                                    Đầm suông nữ tặng kèm dây beo thắt eo
+                                                </span>
+
+
+                                            </th>
+                                            <td class="product__quantity visually-hidden"><em>Số lượng:</em> 1</td>
+                                            <td class="product__price">
+
+                                                129.000₫
+
+                                            </td>
+                                        </tr>
+
+                                        <tr class="product">
+                                            <td class="product__image">
+                                                <div class="product-thumbnail mb-3 me-3">
+                                                    <div class="product-thumbnail__wrapper" data-tg-static="">
+                                                        <img src="//bizweb.dktcdn.net/thumb/thumb/100/456/491/products/7xtwyt-simg-d0daf0-800x1200-max.png?v=1678891276913"
+                                                            alt="" class="product-thumbnail__image">
+                                                    </div>
+                                                    <span class="product-thumbnail__quantity">1</span>
+                                                </div>
+                                            </td>
+                                            <th class="product__description">
+                                                <span class="product__description__name">
+                                                    Ví nữ cầm tay phong cách Hàn Quốc
+                                                </span>
+
+                                                <span class="product__description__property">
+                                                    Vàng
+                                                </span>
+
+
+                                            </th>
+                                            <td class="product__quantity visually-hidden"><em>Số lượng:</em> 1</td>
+                                            <td class="product__price">
+
+                                                120.000₫
+
+                                            </td>
+                                        </tr>
+
+                                        <tr class="product">
+                                            <td class="product__image">
+                                                <div class="product-thumbnail mb-3 me-3">
+                                                    <div class="product-thumbnail__wrapper" data-tg-static="">
+                                                        <img src="//bizweb.dktcdn.net/thumb/thumb/100/456/491/products/bcbchsie3amjuunh6y8j-simg-e8409c-967x967-max.jpg?v=1673192704330"
+                                                            alt="" class="product-thumbnail__image">
+                                                    </div>
+                                                    <span class="product-thumbnail__quantity">1</span>
+                                                </div>
+                                            </td>
+                                            <th class="product__description">
+                                                <span class="product__description__name">
+                                                    Áo Phông, Thun Nữ Form Rộng
+                                                </span>
+
+                                                <span class="product__description__property">
+                                                    Đen / M
+                                                </span>
+
+
+                                            </th>
+                                            <td class="product__quantity visually-hidden"><em>Số lượng:</em> 1</td>
+                                            <td class="product__price">
+
+                                                109.000₫
+
+                                            </td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="container">
+                            <form class="d-flex justify-content-between" role="text">
+                                <input class="form-control me-2" type="search" placeholder="Nhập mã giảm giá"
+                                    aria-label="Nhập giảm giá">
+                                <button type="button" class="btn apdung">Áp dụng</button>
+                            </form>
+                            <hr>
+                        </div>
+                        <div class="container">
+                            <div class="d-flex justify-content-between">
+                                <span class="mb-3">Tạm tính</span>
+                                <span class="price-total">380.000₫</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span>Phí vận chuyển</span>
+                                <span>Miễn phí</span>
+                            </div>
+                            <hr>
+                            <div class="d-flex justify-content-between">
+                                <span class="mb-3">Tổng cộng</span>
+                                <span class="payment-due__price">390.000₫</span>
+                            </div>
+                            <div class="back d-flex justify-content-between">
+                                <a href="./gioHang.html"> <i class="fa-solid fa-chevron-left"></i> Quay về giỏ hàng</a>
+                                <button type="submit" class="dathang btn btn-success form-submit">Đặt hàng</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script type="module" src="../js/functions.js"></script>
+
+    <script type="module" src="../js/thanhtoan.js"></script>
+
+    <script src="../js/validate.js"></script>
+    <script>
+        Validator({
+            form: '#form-1',
+            errorSelector: '.form-messege',
+            rules: [
+                Validator.isRequired('#fullname'),
+                Validator.isRequired('#numberphone'),
+                Validator.isRequired('#xaphuong'),
+                Validator.isEmail('#email'),
+                Validator.isRequired('#address'),
+                Validator.isRequired('#inputGroupSelect01'),
+                Validator.isRequired('#inputGroupSelect02'),
+            ]
+        });
+    </script>
 </body>
 
 </html>
