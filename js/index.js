@@ -615,6 +615,7 @@ function numberToString(priceTotal) {
 
 // checkout button
 let checkoutbtn = document.querySelector(".cart__btn-proceed-checkout")
+console.log(checkoutbtn)
 checkoutbtn.addEventListener("click", redirect)
 
 function redirect() {
