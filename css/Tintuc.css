@@ -1,0 +1,294 @@
+body {
+    font-size: 14px;
+    font-family: "Open Sans",sans-serif;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+#app{
+    width: 100%;
+    height: 100%;
+}
+
+/*style breadcrum*/
+#main .breadcrumb-link{
+    width: 100%;
+    min-height: 2rem;
+    background-color:#f6f6f6;
+    margin: 0;
+}
+li.breadcrumb-item a{
+    text-decoration: none;
+    color: black;
+}
+li.action{
+    color: #788696;
+}
+
+/*style page*/
+
+.tintuc{
+    height: 3rem;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom:20px;
+    margin-right: 8px;
+}
+.tintuc span{
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.boxtintuc{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.card{border: none;
+margin-right: 8px;}
+.groupusertime{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 15px;
+}
+.groupusertime .time{padding-left: 8px;}
+.card-body{
+    padding-left: 0;
+}
+
+.card-body svg{
+    width: 15px;
+    height: 15px;
+    margin-top: 2px;
+    margin-right: 8px;
+    color: #f02757;
+}
+.card-body a{text-decoration: none;
+color: #222;}
+
+
+
+.Danhmuc
+{
+    background-color:#f6f6f6 ;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.tintucmoinhat{
+    margin-left: 0px;
+    padding-left: 0px;
+    background-color:#f6f6f6 ;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.tintucmoinhat h6{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+/*style danh muc trang*/
+.sidebar{
+    background-color:#f6f6f6;
+    border-radius: 10px;
+}
+.sidebar .group-menu {
+    position: relative;
+    padding: 15px 15px 0px 15px;
+    border: none;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+}
+.page-slibar{
+    margin-left: 0px;
+    padding-left: 0px;
+    background-color:#f6f6f6 ;
+    margin-bottom: 15px;
+}
+.layered-category{
+
+}
+.menulist-link{
+    position: relative;
+    padding-left: 0;
+}
+h2{
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: none;
+    margin-bottom: 10px;
+}
+.layered-category .nav-item{
+    height: 45px;
+    list-style: none;
+    border-bottom: 1px dashed #e7e7e7;
+}
+
+.menulist-link .nav-item .nav-link{
+    padding: 12px 0px;
+}
+
+/*tyle tin tưc mới nhất*/
+
+.card-doc img{width: 65px;height: 50px;}
+.card-body .conten{margin-left: 10px;}
+
+
+
+.groupnew .card-doc .card-body a,
+.groupnew .card-doc .card-body svg,
+.groupnew .card-doc .card-body span
+{
+    font-size: 10px;
+    font-weight:normal;
+    margin: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*style footer*/
+#footer{
+    background-color:#222;
+}
+.footer .footer-top{
+    padding: 35px 0px;
+    border-bottom: 1px solid #fff;
+}
+.footer .footer-top .row {
+    align-items: center;}
+.footer-top .footer-hotline {
+        color: #fff;
+        align-items: center;}
+.footer .footer-top .footer-hotline .icon {
+            margin-right: 24px;
+        }
+.footer .footer-top .footer-hotline .text a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    display: block;
+    text-decoration: none;
+}
+.footer .footer-top .footer-hotline .text span {
+    color: #999;
+    font-size: 14px;
+    display: block;
+}
+
+.footer .footer-top .footer-social {
+    align-items: center;
+    justify-content: flex-end;
+}
+.footer .footer-top .footer-social .title {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.footer .footer-top .footer-social .main a {
+    margin-left: 10px;
+}
+.footer .footer-middle {
+    padding: 60px 0px;
+    position: relative;
+}
+.footer h4 {
+    margin-bottom: 15px;
+    color:#fff;
+}
+
+.footer .col-contact-footer .about {
+    color: #ffff;
+    font-size: 13px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.footer ul {
+    padding: 0;
+    list-style: none;
+}
+.footer .col-contact-footer ul li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #fff;
+}
+.footer .col-contact-footer ul li svg {
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+.footer ul li a {
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.footer .footer-menu {
+    position: relative;
+}
+.footer .footer-menu a {
+    display: block;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 13px;
+    text-decoration: none;
+}
+.footer .footer-menu a:hover {
+    color: #f02757;
+}
+.footer .footer-middle .tuvan-khieunai {
+    display: block;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer .footer-middle .tuvan-khieunai .item {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.footer .footer-middle .tuvan-khieunai .item a {
+    color: #f02757;
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.footer .copyright {
+    color: #fff;
+    font-size: 13px;
+}
+.footer .copyright .inner {
+    padding: 12px 0;
+    border-top: 1px solid rgba(255,255,255,0.5);
+}
+.footer .copyright a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer .payment {
+    display: flex;
+    justify-content: flex-end;
+}
+.footer .payment .item {
+    display: inline-flex;
+    margin-left: 5px;
+    vertical-align: top;
+    cursor: pointer;
+}

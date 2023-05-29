@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/repon_index.css">
+    <link rel="stylesheet" href="../css/thanhtoan.css">
+    <title>Thanhtoan</title>
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="topbar d-flex align-items-center ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-6 contact-header">
+                        <span>
+                            Hotline
+                            <a class="fone" href="tel:19006750">1900 6750</a>
+                        </span>
+                        <span class="d-md-inline-block d-none">
+                            Email:
+                            <a href="mailto: levubao2001@gmail.com">support@gmail.com</a>
+                        </span>
+                    </div>
+
+                    <div class="col-md-6 col-12">
+                        <div class="account-header">
+                            <a class="btn-login" href="./login.html" title="Đăng nhập">Đăng nhập</a>
+                            <a class="btn-signin" href="./signin.html" title="Đăng ký">Đăng ký</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-header">
+            <div class="container">
+                <div class="box-header">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3 col-md-2 col-2 header-upper-menu-mobile">
+                            <div class="header-action-toggle" id="site-menu-handle">
+                                <img width="64"
+                                    src="//bizweb.dktcdn.net/100/456/491/themes/864044/assets/menu.png?1679755116253"
+                                    alt="Lofi Style">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2 col-md-8 col-6 header-logo">
+                            <a class="logo" title="logo" href="#">
+                                <img width="147"
+                                    src="https://bizweb.dktcdn.net/100/456/491/themes/864044/assets/logo.png?1679755116253"
+                                    alt="logo">
+                            </a>
+                        </div>
+
+                        <div class="col-lg-8 header-mid">
+                            <div class="header-menu-des">
+                                <div class="close-menu d-lg-none d-block">
+                                    <img width="25" height="25"
+                                        src="//bizweb.dktcdn.net/100/456/491/themes/864044/assets/close.png?1679755116253"
+                                        alt="Lofi Style">
+                                </div>
+
+                                <div id="main-nav-menu">
+                                    <ul class="menuList-main">
+                                        <li class="nav-item "><a class="nav-link" title="Trang chủ"
+                                                href="../index.html">Trang chủ</a></li>
+                                        <li class="nav-item"><a class="nav-link" title="Trang chủ"
+                                                href="./introduce.html">Giới thiệu</a></li>
+                                        <li class="nav-item has-submenu">
+                                            <a class="nav-link caret-down" title="Trang chủ" href="#">Sản phẩm</a>
+                                            <i class="fa ic-caret-down"></i>
+                                            <ul class="menuList-submain level-1">
+                                                <li class="has-submenu">
+                                                    <a class="caret-down" href="/san-pham-ao" title="Sản phẩm áo">
+                                                        Sản phẩm áo
+                                                    </a>
+                                                    <i class="fa ic-caret-down"></i>
+                                                    <ul class="menuList-submain level-2">
+                                                        <li>
+                                                            <a href="/ao-phong" title="Áo phông">Áo phông</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/ao-so-mi" title="Áo sơ mi">Áo sơ mi</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/ao-kieu" title="Áo kiểu">Áo kiểu</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/ao-len" title="Áo len">Áo len</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/ao-khoac" title="Áo khoác">Áo khoác</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu">
+                                                    <a class="caret-down" href="/san-pham-quan" title="Sản phẩm quần">
+                                                        Sản phẩm quần
+                                                    </a>
+                                                    <i class="fa ic-caret-down"></i>
+                                                    <ul class="menuList-submain level-2">
+                                                        <li>
+                                                            <a href="/quan-jeans" title="Quần jeans">Quần jeans</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/quan-kaki" title="Quần kaki">Quần kaki</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/quan-short" title="Quần short">Quần short</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/quan-lung" title="Quần lửng">Quần lửng</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu">
+                                                    <a class="caret-down" href="/san-pham-vay" title="Sản phẩm váy">
+                                                        Sản phẩm váy
+                                                    </a>
+                                                    <i class="fa ic-caret-down"></i>
+                                                    <ul class="menuList-submain level-2">
+                                                        <li>
+                                                            <a href="/vay-bo" title="Váy bó">Váy bó</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/vay-xuong" title="Váy xuông">Váy xuông</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/vay-chu-a" title="Váy chữ A">Váy chữ A</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/dam-om" title="Đầm ôm">Đầm ôm</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu">
+                                                    <a class="caret-down" href="/tui-phu-kien" title="Túi xách">
+                                                        Túi xách
+                                                    </a>
+                                                    <i class="fa ic-caret-down"></i>
+                                                    <ul class="menuList-submain level-2">
+                                                        <li>
+                                                            <a href="/vi" title="Ví">Ví</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu">
+                                                    <a class="" href="/giay-dep" title="Giày dép">
+                                                        Giày dép
+                                                    </a>
+                                                </li>
+                                                <li class="has-submenu">
+                                                    <a class="" href="/phu-kien-1" title="Phụ kiện">
+                                                        Phụ kiện
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item action"><a class="nav-link" title="Trang chủ"
+                                                href="./tintuc.html">Tin tức</a></li>
+                                        <li class="nav-item "><a class="nav-link" title="Trang chủ"
+                                                href="./lienhe.html">Liên hệ</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="flash-scroll">
+                                    <a class="scroll-down" href="#section_flash_sale">
+                                        <img width="12" src="../img/icon-flash.webp" alt="flash">
+                                        Flash sale
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2 col-md-2 col-4 header-right">
+                            <div class="header-wrap-icon">
+
+                                <div class="wrap-search header-action">
+                                    <div class="header-action-toggle" id="search-handle">
+                                        <span class="box-icon">
+                                            <img width="24" src="../img/search-icon.webp" alt="search">
+                                        </span>
+                                    </div>
+
+                                    <div class="header_dropdown site_search">
+                                        <div class="site-search-container">
+                                            <p class="title">Tìm kiếm</p>
+                                            <div class="wrapper-search">
+                                                <form action="/search" method="get" role="search"
+                                                    class="searchform searchform-categoris ultimate-search">
+                                                    <div class="search-inner">
+                                                        <input id="inputSearch" type="text" name="query" value=""
+                                                            class="input-search form-control"
+                                                            placeholder="Tìm kiếm sản phẩm..." autocomplete="off">
+                                                        <input type="hidden" name="type" value="product">
+                                                    </div>
+                                                    <button type="submit" aria-label="Tìm kiếm" class="btn-search"
+                                                        id="search-btn">
+                                                        <img width="24" height="27"
+                                                            src="//bizweb.dktcdn.net/100/456/491/themes/864044/assets/search.png?1679755116253"
+                                                            alt="Lofi Style">
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="wrap-wishlist header-action">
+                                    <a class="wishlist_header box-icon" href="#">
+                                        <svg xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 18 17" fill="none">
+                                            <path
+                                                d="M1.34821 8.7354C0.330209 5.77575 1.60274 2.00897 4.40225 1.2018C5.92926 0.663681 7.96523 1.20177 8.98323 2.81612C10.0012 1.20177 12.0372 0.663681 13.5642 1.2018C16.6182 2.27803 17.6363 5.77575 16.6183 8.7354C15.3458 13.3094 10.2557 16 8.98323 16C7.71073 15.7309 2.87522 13.5784 1.34821 8.7354Z"
+                                                stroke="#000000" stroke-width="1.5px" stroke-linecap="round"
+                                                stroke-linejoin="round" fill="none"></path>
+                                        </svg>
+                                        <span class="headerWishlistCount count">0</span>
+                                    </a>
+                                </div>
+
+                                <div class="wrap-cart header-action block-cart">
+                                    <a class="header-action-toggle header-cart" id="site-cart-handle" href="#">
+                                        <span class="box-icon">
+                                            <img width="24" height="24"
+                                                src="//bizweb.dktcdn.net/100/456/491/themes/864044/assets/ic-cart.svg?1679755116253"
+                                                alt="Lofi Style">
+                                            <span class="count_item_pr count">0</span>
+                                        </span>
+                                    </a>
+                                    <div class="top-cart-content">
+                                        <div class="CartHeaderContainer">
+                                            <div class="cart--empty-message">
+                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+                                                    x="0px" y="0px" viewBox="0 0 201.387 201.387"
+                                                    style="enable-background:new 0 0 201.387 201.387;"
+                                                    xml:space="preserve">
+                                                    <g>
+                                                        <g>
+                                                            <path
+                                                                d="M129.413,24.885C127.389,10.699,115.041,0,100.692,0C91.464,0,82.7,4.453,77.251,11.916    c-1.113,1.522-0.78,3.657,0.742,4.77c1.517,1.109,3.657,0.78,4.768-0.744c4.171-5.707,10.873-9.115,17.93-9.115    c10.974,0,20.415,8.178,21.963,19.021c0.244,1.703,1.705,2.932,3.376,2.932c0.159,0,0.323-0.012,0.486-0.034    C128.382,28.479,129.679,26.75,129.413,24.885z">
+                                                            </path>
+                                                        </g>
+                                                    </g>
+                                                    <g>
+                                                        <g>
+                                                            <path
+                                                                d="M178.712,63.096l-10.24-17.067c-0.616-1.029-1.727-1.657-2.927-1.657h-9.813c-1.884,0-3.413,1.529-3.413,3.413    s1.529,3.413,3.413,3.413h7.881l6.144,10.24H31.626l6.144-10.24h3.615c1.884,0,3.413-1.529,3.413-3.413s-1.529-3.413-3.413-3.413    h-5.547c-1.2,0-2.311,0.628-2.927,1.657l-10.24,17.067c-0.633,1.056-0.648,2.369-0.043,3.439s1.739,1.732,2.97,1.732h150.187    c1.231,0,2.364-0.662,2.97-1.732S179.345,64.15,178.712,63.096z">
+                                                            </path>
+                                                        </g>
+                                                    </g>
+                                                    <g>
+                                                        <g>
+                                                            <path
+                                                                d="M161.698,31.623c-0.478-0.771-1.241-1.318-2.123-1.524l-46.531-10.883c-0.881-0.207-1.809-0.053-2.579,0.423    c-0.768,0.478-1.316,1.241-1.522,2.123l-3.509,15c-0.43,1.835,0.71,3.671,2.546,4.099c1.835,0.43,3.673-0.71,4.101-2.546    l2.732-11.675l39.883,9.329l-6.267,26.795c-0.43,1.835,0.71,3.671,2.546,4.099c0.263,0.061,0.524,0.09,0.782,0.09    c1.55,0,2.953-1.062,3.318-2.635l7.045-30.118C162.328,33.319,162.176,32.391,161.698,31.623z">
+                                                            </path>
+                                                        </g>
+                                                    </g>
+                                                    <g>
+                                                        <g>
+                                                            <path
+                                                                d="M102.497,39.692l-3.11-26.305c-0.106-0.899-0.565-1.72-1.277-2.28c-0.712-0.56-1.611-0.816-2.514-0.71l-57.09,6.748    c-1.871,0.222-3.209,1.918-2.988,3.791l5.185,43.873c0.206,1.737,1.679,3.014,3.386,3.014c0.133,0,0.27-0.009,0.406-0.024    c1.87-0.222,3.208-1.918,2.988-3.791l-4.785-40.486l50.311-5.946l2.708,22.915c0.222,1.872,1.91,3.202,3.791,2.99    C101.379,43.261,102.717,41.564,102.497,39.692z">
+                                                            </path>
+                                                        </g>
+                                                    </g>
+                                                    <g>
+                                                        <g>
+                                                            <path
+                                                                d="M129.492,63.556l-6.775-28.174c-0.212-0.879-0.765-1.64-1.536-2.113c-0.771-0.469-1.696-0.616-2.581-0.406L63.613,46.087    c-1.833,0.44-2.961,2.284-2.521,4.117l3.386,14.082c0.44,1.835,2.284,2.964,4.116,2.521c1.833-0.44,2.961-2.284,2.521-4.117    l-2.589-10.764l48.35-11.626l5.977,24.854c0.375,1.565,1.775,2.615,3.316,2.615c0.265,0,0.533-0.031,0.802-0.096    C128.804,67.232,129.932,65.389,129.492,63.556z">
+                                                            </path>
+                                                        </g>
+                                                    </g>
+                                                    <g>
+                                                        <g>
+                                                            <path
+                                                                d="M179.197,64.679c-0.094-1.814-1.592-3.238-3.41-3.238H25.6c-1.818,0-3.316,1.423-3.41,3.238l-6.827,133.12    c-0.048,0.934,0.29,1.848,0.934,2.526c0.645,0.677,1.539,1.062,2.475,1.062h163.84c0.935,0,1.83-0.384,2.478-1.062    c0.643-0.678,0.981-1.591,0.934-2.526L179.197,64.679z M22.364,194.56l6.477-126.293h143.701l6.477,126.293H22.364z">
+                                                            </path>
+                                                        </g>
+                                                    </g>
+                                                    <g>
+                                                        <g>
+                                                            <path
+                                                                d="M126.292,75.093c-5.647,0-10.24,4.593-10.24,10.24c0,5.647,4.593,10.24,10.24,10.24c5.647,0,10.24-4.593,10.24-10.24    C136.532,79.686,131.939,75.093,126.292,75.093z M126.292,88.747c-1.883,0-3.413-1.531-3.413-3.413s1.531-3.413,3.413-3.413    c1.882,0,3.413,1.531,3.413,3.413S128.174,88.747,126.292,88.747z">
+                                                            </path>
+                                                        </g>
+                                                    </g>
+                                                    <g>
+                                                        <g>
+                                                            <path
+                                                                d="M75.092,75.093c-5.647,0-10.24,4.593-10.24,10.24c0,5.647,4.593,10.24,10.24,10.24c5.647,0,10.24-4.593,10.24-10.24    C85.332,79.686,80.739,75.093,75.092,75.093z M75.092,88.747c-1.882,0-3.413-1.531-3.413-3.413s1.531-3.413,3.413-3.413    s3.413,1.531,3.413,3.413S76.974,88.747,75.092,88.747z">
+                                                            </path>
+                                                        </g>
+                                                    </g>
+                                                    <g>
+                                                        <g>
+                                                            <path
+                                                                d="M126.292,85.333h-0.263c-1.884,0-3.413,1.529-3.413,3.413c0,0.466,0.092,0.911,0.263,1.316v17.457    c0,12.233-9.953,22.187-22.187,22.187s-22.187-9.953-22.187-22.187V88.747c0-1.884-1.529-3.413-3.413-3.413    s-3.413,1.529-3.413,3.413v18.773c0,15.998,13.015,29.013,29.013,29.013s29.013-13.015,29.013-29.013V88.747    C129.705,86.863,128.176,85.333,126.292,85.333z">
+                                                            </path>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                                <p>Không có sản phẩm nào trong giỏ hàng của bạn</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="container-fluid mt-5">
+        <div class="container ps-0">
+            <div class="row">
+                <div class="container thongtinship col-12 col-sm-8">
+                    
+                    <div class="container logo logo--left">
+                        <h1 class="shop__name">
+                            <a href="../index.html">Lofi Style</a>
+                        </h1>
+                    </div>
+                    <div class="container-fluid row">
+                        <div class="nhanhang containe col-12 col-sm-6">
+                            <h3>Thông tin nhận hàng</h3>
+                            <form id="form-1" class="form-group">
+                                <div class="input-group-lg">
+                                    <input id="fullname" type="text" class="form-control mt-3 mb-3" placeholder="Họ và tên">
+                                    <span class="form-messege"></span>
+                                </div>
+                                <div class="input-group-lg">
+                                    <input id="numberphone" type="text" class="form-control mt-3 mb-3" placeholder="Số điện thoại">
+                                    <span class="form-messege"></span>
+                                </div>
+                                <div class="input-group-lg">
+                                    <input id="email" type="text" class="form-control mt-3 mb-3" placeholder="Email">
+                                    
+                                    <span class="form-messege"></span>
+                                </div>
+                                <div class="input-group-lg">
+                                    <input id="address" type="text" class="form-control mt-3 mb-3" placeholder="Địa chỉ">
+                                    <span class="form-messege"></span>
+                                </div>
+
+                                <div class=".field__input-wrapper mb-3">
+                                    
+                                    <label class="form-label" for="inputGroupSelect01" >Tỉnh/Thành phố (tuỳ chọn)</label>
+                                    <select class="form-select" id="inputGroupSelect01" style="width: 100%;">
+                                        <option selected>Hà Nội</option>
+                                        <option value="1">Hồ Chí Minh</option>
+                                        <option value="2">Đà Nẵng</option>
+                                        <option value="3">Quảng Ninh</option>
+                                    </select>
+                                    <span class="form-messege"></span>
+                                </div>
+
+                                <div class=".field__input-wrapper mb-3">
+                                    
+                                    <label class="form-label" for="inputGroupSelect02" >Quận/huyện(tuỳ chọn)</label>
+                                    <select class="form-select" id="inputGroupSelect02">
+                                        <option selected>Quận 1</option>
+                                        <option value="1">Quận 2</option>
+                                        <option value="2">Quận 3</option>
+                                        <option value="3">Quận 4</option>
+                                    </select>
+                                    <span class="form-messege"></span>
+                                </div>
+                                <div class="input-group-lg">
+                                    <input type="text" class="form-control mt-3 mb-3" placeholder="Xã/Phường">
+                                    <span class="form-messege"></span>
+                                </div>
+                                <div class="mb-3 ghichu">
+                                    <label for="exampleFormControlTextarea1" class="form-label ms-3">Ghi chú</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="containe col-12 col-sm-6">
+                            <div>
+                                <h3>vận chuyển</h3>
+                                <div class="vanchuyen alert alert--info input-group-sm" data-bind-show="!isLoadingShippingMethod &amp;&amp; isAddressSelecting">
+                                    Vui lòng nhập thông tin giao hàng
+                                </div>
+                            </div>
+                            <div>
+                                <h3>Thanh toán</h3>
+                                <ul class="list-group mt-3 mb-3">
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="firstRadio" checked>
+                                        <label class="form-check-label" for="firstRadio">Thanh toán khi giao hàng (COD)
+                                            <i class="payment-icon payment-icon--4"></i>
+                                        </label>
+                                    </li>
+                                </ul>
+                                <div class="content-box__row__desc" data-bind-show="paymentMethod == 537853">
+                                    <p class="ms-3">Bạn chỉ phải thanh toán khi nhận được hàng</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container sanpham pe-5 col-12 col-sm-4 bg-light">
+                    <div class="container mt-3">
+                        <h3 >Đơn hàng</h3>
+                        <span></span>
+                        <hr>
+                    </div>
+                    <div class="container">
+                        <div class="order-summary__section order-summary__section--product-list order-summary__section--is-scrollable order-summary--collapse-element">
+                            <table class="product-table">
+                                <caption class="visually-hidden">Chi tiết đơn hàng</caption>
+                                <thead class="product-table__header">
+                                    <tr>
+                                        <th>
+                                            <span class="visually-hidden">Ảnh sản phẩm</span>
+                                        </th>
+                                        <th>
+                                            <span class="visually-hidden">Mô tả</span>
+                                        </th>
+                                        <th>
+                                            <span class="visually-hidden">Sổ lượng</span>
+                                        </th>
+                                        <th>
+                                            <span class="visually-hidden">Đơn giá</span>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    
+                                    <tr class="product">
+                                        <td class="product__image">
+                                            <div class="product-thumbnail mb-3 me-3">
+                                                <div class="product-thumbnail__wrapper" data-tg-static="">
+                                                    <img src="//bizweb.dktcdn.net/thumb/thumb/100/456/491/products/zhglb5ybvfie29apcipt.jpg?v=1673154130480" alt="" class="product-thumbnail__image">
+                                                </div>
+                                                <span class="product-thumbnail__quantity">1</span>
+                                            </div>
+                                        </td>
+                                        <th class="product__description">
+                                            <span class="product__description__name">
+                                                Đầm suông nữ tặng kèm dây beo thắt eo
+                                            </span>
+                                            
+                                            
+                                        </th>
+                                        <td class="product__quantity visually-hidden"><em>Số lượng:</em> 1</td>
+                                        <td class="product__price">
+                                            
+                                            129.000₫
+                                            
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr class="product">
+                                        <td class="product__image">
+                                            <div class="product-thumbnail mb-3 me-3">
+                                                <div class="product-thumbnail__wrapper" data-tg-static="">
+                                                    <img src="//bizweb.dktcdn.net/thumb/thumb/100/456/491/products/7xtwyt-simg-d0daf0-800x1200-max.png?v=1678891276913" alt="" class="product-thumbnail__image">
+                                                </div>
+                                                <span class="product-thumbnail__quantity">1</span>
+                                            </div>
+                                        </td>
+                                        <th class="product__description">
+                                            <span class="product__description__name">
+                                                Ví nữ cầm tay phong cách Hàn Quốc
+                                            </span>
+                                            
+                                            <span class="product__description__property">
+                                                Vàng
+                                            </span>
+                                            
+                                            
+                                        </th>
+                                        <td class="product__quantity visually-hidden"><em>Số lượng:</em> 1</td>
+                                        <td class="product__price">
+                                            
+                                            120.000₫
+                                            
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr class="product">
+                                        <td class="product__image">
+                                            <div class="product-thumbnail mb-3 me-3">
+                                                <div class="product-thumbnail__wrapper" data-tg-static="">
+                                                    <img src="//bizweb.dktcdn.net/thumb/thumb/100/456/491/products/bcbchsie3amjuunh6y8j-simg-e8409c-967x967-max.jpg?v=1673192704330" alt="" class="product-thumbnail__image">
+                                                </div>
+                                                <span class="product-thumbnail__quantity">1</span>
+                                            </div>
+                                        </td>
+                                        <th class="product__description">
+                                            <span class="product__description__name">
+                                                Áo Phông, Thun Nữ Form Rộng
+                                            </span>
+                                            
+                                            <span class="product__description__property">
+                                                Đen / M
+                                            </span>
+                                            
+                                            
+                                        </th>
+                                        <td class="product__quantity visually-hidden"><em>Số lượng:</em> 1</td>
+                                        <td class="product__price">
+                                            
+                                            109.000₫
+                                            
+                                        </td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="container">
+                        <form class="d-flex justify-content-between" role="text">
+                            <input class="form-control me-2" type="search" placeholder="Nhập mã giảm giá" aria-label="Nhập giảm giá">
+                            <button type="button" class="btn apdung">Áp dụng</button>
+                        </form>
+                        <hr>
+                    </div>
+                    <div class="container">
+                        <div class="d-flex justify-content-between">
+                            <span class="mb-3">Tạm tính</span>
+                            <span class="price-total">380.000₫</span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span>Phí vận chuyển</span>
+                            <span>Miễn phí</span>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <span class="mb-3">Tổng cộng</span>
+                            <span class="payment-due__price">390.000₫</span>
+                        </div>
+                        <div class="back d-flex justify-content-between">
+                            <a href=""> <i class="fa-solid fa-chevron-left"></i> Quay về giỏ hàng</a>
+                            <button onclick="location.href='./camon.html'" type="submit" class="dathang btn btn-success">Đặt hàng</button>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>  
+    </section>
+<script type="module" src="../js/thanhtoan.js"></script>
+<script>
+validator({
+    form:'#form-1',
+    errorSelector:'.form-messege',
+    rules:[
+        validator.isRequired('#fullname'),
+        validator.isNumber('#numberphone'),
+        validator.isEmail('#email'),
+        validator.isRequired('#address'),
+        validator.isRequired('#inputGroupSelect01'),
+        validator.isRequired('#inputGroupSelect02'),
+    ]
+});
+</script>
+</body>
+
+</html>
