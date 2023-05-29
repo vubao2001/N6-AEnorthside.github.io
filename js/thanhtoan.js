@@ -61,7 +61,6 @@ if (priceTotal < 1000) {
 paymentPrice.innerHTML = containerPriceTotal.textContent
 
 // doi tuong 
-
 function validator(options) {
 
     //hàm thực hiện validated
@@ -119,13 +118,13 @@ validator.isRequired = function (selector) {
 validator.isEmail = function (selector) {
     return {
         selector: selector,
-        test: function (value) {
+        test: function (vale) {
             var isEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-            return isEmail.test(value) ? undefined : 'Email không hợp lệ';
+            return isEmail.test(vale) ? undefined : 'Email không hợp lệ';
+
         }
     };
 }
-
 validator.isNumber = function (selector) {
     return {
         selector: selector,

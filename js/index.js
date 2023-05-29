@@ -615,12 +615,13 @@ function numberToString(priceTotal) {
 
 // checkout button
 let checkoutbtn = document.querySelector(".cart__btn-proceed-checkout")
+console.log(checkoutbtn)
 checkoutbtn.addEventListener("click", redirect)
 
 function redirect() {
     let products = getItemInLocal("products")
     if (products.length > 0) {
-        window.location.href = "../html/thanhtoan.html"
+        window.location.href = "../HTML/thanhtoan.html"
     }
 }
 // end checkout button
