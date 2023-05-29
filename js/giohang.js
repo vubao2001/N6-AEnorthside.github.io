@@ -156,7 +156,7 @@ checkoutbtn.addEventListener("click", redirect)
 function redirect() {
     let products = getItemInLocal("products")
     if (products.length > 0) {
-        window.location.href = "../html/thanhtoan.html"
+        window.location.href = "../HTML/thanhtoan.html"
     }
 }
 // end checkout button
